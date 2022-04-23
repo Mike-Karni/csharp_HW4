@@ -15,7 +15,6 @@ while(index<array.Length)
     Console.Write( array[index]+ " ");
     index+=2 ;
 }
-
 //Console.WriteLine(dlina);
 
 /*int[] array = new int [8];
