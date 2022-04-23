@@ -9,13 +9,10 @@ Console.WriteLine("Введите значения массива через з�
 
 string array = Console.ReadLine();
 
-
-int dlina = array.Length;
 int index = 0;
-
 while(index<array.Length)
 {
-    Console.Write(array[index]+ " ");
+    Console.Write( array[index]+ " ");
     index+=2 ;
 }
 
