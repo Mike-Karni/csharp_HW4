@@ -3,12 +3,13 @@
 82 -> 10
 9012 -> 12*/
 Console.Write("Введите число А  ");
-string? number = Console.ReadLine();
+string number = Console.ReadLine();
 int sum = 0;
+
 for (int index = 0;index<number.Length;index++)
 {
-    sum = sum + Convert.ToInt32(number[index]);
-    
+    string strnumb = Convert.ToString(number[index]);
+    sum = sum + Convert.ToInt16(strnumb);
 }
 Console.WriteLine(sum);
 
