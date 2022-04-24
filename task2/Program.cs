@@ -5,7 +5,6 @@
 Console.Write("Введите число А  ");
 string number = Console.ReadLine();
 int sum = 0;
-
 for (int index = 0;index<number.Length;index++)
 {
     string strnumb = Convert.ToString(number[index]);
@@ -13,14 +12,14 @@ for (int index = 0;index<number.Length;index++)
 }
 Console.WriteLine(sum);
 
-/*int s = 0;
+
+//Второе решение
+/*int summ = 0;
 while (number > 0)
 {
- 
-    s = s + number % 10;
+     summ = summ + number % 10;
     number = number /10 ;
- 
-}
- Console.WriteLine(s);*/
+ }
+ Console.WriteLine(summ);*/
 
 
